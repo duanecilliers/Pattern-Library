@@ -1,0 +1,17 @@
+{
+  "name": "dc-pattern-library",
+  "homepage": "https://github.com/duanecilliers/Pattern-Library",
+  "authors": [
+    "Duane Cilliers <hello@duane.co.za>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    }
+  }
+}
