@@ -250,7 +250,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 gulp.task('watch', function() {
   run('pwd && node index.js').exec();
   browserSync.init({
-    files: ['{lib,templates}/**/*.php', '*.php'],
+    files: ['{components}/**/*.html'],
     proxy: config.devUrl,
     port: 3002
   });
