@@ -25,6 +25,6 @@
   },
   "paths": {
     "source": "assets/",
-    "dist": "compiled/"
+    "dist": "dist/"
   }
 }
